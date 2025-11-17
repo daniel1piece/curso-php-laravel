@@ -1,0 +1,21 @@
+To create a model and migration for database table
+We use:
+
+php artisan make:model Profile -m
+
+We can list all of the commands for artisan by typing 
+on the console:
+
+php artisan list
+
+--
+After modifying the migration files, 
+We should run:
+
+php artisan migrate
+
+--
+After creating the relationships
+between models:
+php artisan tinker
+$user = new User;
