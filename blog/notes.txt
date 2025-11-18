@@ -19,3 +19,9 @@ After creating the relationships
 between models:
 php artisan tinker
 $user = new User;
+-- To create a factory
+If we do not remember a command for artisan we can
+enter 'php artisan list' and in this case check out
+the make options.
+
+1. php artisan make:factory ArticleFactory
